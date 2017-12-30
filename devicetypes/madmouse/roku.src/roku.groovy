@@ -72,11 +72,12 @@ metadata {
 				attributeState("default", label:"${currentValue}", backgroundColor:"#00ffff")
                 state "Roku", label:'${currentValue}', backgroundColor:"#8c00ff"
                 state "Netflix", label:'${currentValue}', backgroundColor:"#ff0000"
-                state "Play Movies", label:'${currentValue}', backgroundColor:"#ff0000"
+                state "DIRECTV NOW", label:'${currentValue}', backgroundColor:"#000000"
+		state "Play Movies", label:'${currentValue}', backgroundColor:"#ff0000"
                 state "Amazon Video", label:'${currentValue}', backgroundColor:"#6600ff"
                 state "PlexPass", label:'${currentValue}', backgroundColor:"#ff0015"
                 state "Plex", label:'${currentValue}', backgroundColor:"#ff0015"
-                state "Live TV", label:'${currentValue}', backgroundColor:"#8c00ff"
+                //state "Live TV", label:'${currentValue}', backgroundColor:"#8c00ff"
             
            }
 		}
